@@ -20,6 +20,41 @@ h1
     padding: 3rem 0;
 }
 
+h2
+{
+    font-size: 3rem;
+    padding: 3rem 0;
+}
+
+h5
+{
+    font-size: 1.5rem;
+}
+
+h6
+{
+    font-size: 1rem;
+}
+
+[type=checkbox]
+{
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    margin: 2rem 0;
+}
+
+[type=checkbox]:checked
+{
+    background-color: var(--drop-primary);
+}
 /* #endregion Common */
 
 /* #region Utilities */
@@ -58,12 +93,18 @@ h1
     border-style: none;
     padding: 0.5rem 1rem;
     color: var(--drop-light);
+    cursor: pointer;
 }
 
 .max
 {
     max-width: 12rem;
     margin: 3rem 0;
+}
+
+.little_hr
+{
+    width: 3rem;
 }
 
 /* #endregion Utilities */
@@ -154,6 +195,39 @@ ul
     margin-left: -1rem;
 }
 
+.sborder{
+    height: 100px;
+    background-color: var(--drop-light);
+}
+
+#business
+{
+    background-color: var(--drop-light);
+    padding-top: 3rem;
+}
+
+.card_33
+{
+    width: calc(100%/3);
+    border-color: rgba(128, 128, 128, 0.418);
+    border-style: solid;
+    margin: 2px;
+    border-width: 1px;
+    flex-direction: column;
+}
+
+.how_many
+{
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.package_price
+{
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
 /* #endregion Main */
 
 /* #region Footer */
