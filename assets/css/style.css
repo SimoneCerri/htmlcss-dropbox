@@ -1,5 +1,6 @@
 /* #region Common */
-* {
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +8,8 @@
     font-optical-sizing: auto;
 }
 
-li {
+li
+{
     list-style-type: none;
 }
 
@@ -20,21 +22,24 @@ h1
 /* #endregion Common */
 
 /* #region Utilities */
-:root {
+:root
+{
     --drop-dark: black;
     --drop-light: white;
     --drop-primary: #0061ffFF;
     --drop-secondary: #b4d0e7FF;
 }
 
-.container_80 {
-    width: 80%;
+.container_55
+{
+    width: 55%;
     margin: auto;
     max-width: 1900px;
 }
 
-.container_60 {
-    width: 60%;
+.container_65
+{
+    width: 65%;
     margin: auto;
     max-width: 1900px;
 }
@@ -50,23 +55,31 @@ h1
 .button {
     background-color: var(--drop-primary);
     border-style: none;
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem 1rem;
     color: var(--drop-light);
+}
+
+.max
+{
+    max-width: 12rem;
 }
 /* #endregion Utilities */
 
 /* #region Debug */
-.debug #site_header {
+.debug #site_header
+{
     height: 80px;
     background-color: red;
 }
 
-.debug #site_main {
+.debug #site_main
+{
     height: 1500px;
     background-color: green;
 }
 
-.debug #site_footer {
+.debug #site_footer
+{
     height: 600px;
     background-color: black;
 }
@@ -74,26 +87,37 @@ h1
 /* #endregion Debug */
 
 /* #region Header */
-#site_header {
+#site_header
+{
     background-color: var(--drop-light);
     padding: 2rem 1rem;
 }
 
-li>a {
+li>a
+{
     text-decoration: none;
     color: var(--drop-dark);
 }
 
-ul {
+ul
+{
     gap: 2rem;
 }
 
 /* #endregion Header */
 
 /* #region Main */
-#jumbo {
+#jumbo
+{
     background-color: var(--drop-secondary);
     text-align: center;
+}
+
+.free_try
+{
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 1rem;
 }
 
 .free_try>p:first-child
@@ -101,9 +125,26 @@ ul {
     text-align: left;
 }
 
-.free_try>span:last-child
+.free_try :last-child
+{
+    align-self: flex-start;
+    color: var(--drop-dark);
+    font-size: 3rem;
+}
+
+.span
 {
     text-align: left;
+}
+
+.img_jumbo
+{
+    margin-bottom: -20rem;
+}
+
+.img_jumbo>img
+{
+    max-width: 100%;
 }
 /* #endregion Main */
 
