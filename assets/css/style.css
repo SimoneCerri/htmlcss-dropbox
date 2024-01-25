@@ -17,6 +17,7 @@ h1
 {
     font-size: 65px;
     text-align: left;
+    padding: 3rem 0;
 }
 
 /* #endregion Common */
@@ -62,7 +63,9 @@ h1
 .max
 {
     max-width: 12rem;
+    margin: 3rem 0;
 }
+
 /* #endregion Utilities */
 
 /* #region Debug */
@@ -116,8 +119,9 @@ ul
 .free_try
 {
     flex-direction: column;
-    gap: 2rem;
-    padding-bottom: 1rem;
+    /* gap: 2rem; */
+    /* padding-bottom: 1rem; */
+    flex-basis: 30%;
 }
 
 .free_try>p:first-child
@@ -130,6 +134,7 @@ ul
     align-self: flex-start;
     color: var(--drop-dark);
     font-size: 3rem;
+    padding-top: 1rem;
 }
 
 .span
@@ -139,13 +144,16 @@ ul
 
 .img_jumbo
 {
-    margin-bottom: -20rem;
+    flex-basis: 70%;
 }
 
 .img_jumbo>img
 {
     max-width: 100%;
+    margin-bottom: -5rem;
+    margin-left: -1rem;
 }
+
 /* #endregion Main */
 
 /* #region Footer */
