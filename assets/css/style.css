@@ -344,4 +344,17 @@ li>a
 
 /* #region Footer */
 
+#site_footer
+{
+    background-color: var(--drop-dark);
+    color: var(--drop-light);
+}
+
+.white_link
+{
+    color: var(--drop-light);
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
 /* #endregion Footer */
