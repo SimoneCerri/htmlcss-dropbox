@@ -8,6 +8,11 @@
     font-optical-sizing: auto;
 }
 
+img
+{
+    width: 100%;
+}
+
 ul
 {
     gap: 2rem;
@@ -86,6 +91,7 @@ h6
     width: 55%;
     margin: auto;
     max-width: 1900px;
+    align-items: center;
 }
 
 .container_65
@@ -97,6 +103,16 @@ h6
 
 .container_flex {
     display: flex;
+}
+
+.col
+{
+    flex-direction: column;
+}
+
+.gap
+{
+    gap: 1rem;
 }
 
 .space_b {
@@ -111,6 +127,15 @@ h6
     cursor: pointer;
 }
 
+.button_w
+{
+    background-color: var(--drop-light);
+    border-style: none;
+    padding: 0.5rem 2rem;
+    color: var(--drop-dark);
+    cursor: pointer;
+}
+
 .max
 {
     max-width: 12rem;
@@ -122,6 +147,28 @@ h6
     width: 3rem;
 }
 
+.border
+{
+    border-color: rgba(128, 128, 128, 0.418);
+    border-style: solid;
+    margin: 2px;
+    border-width: 1px;
+}
+
+.wrap
+{
+    flex-wrap: wrap;
+}
+
+.spacing_big
+{
+    padding-top: 12rem;
+}
+
+.livorno
+{
+    color:#440c18 ;
+}
 /* #endregion Utilities */
 
 /* #region Debug */
@@ -169,6 +216,12 @@ li>a
     text-align: center;
 }
 
+#low_banner
+{
+    background-color: var(--drop-secondary);
+    padding: 6rem 0;
+}
+
 .free_try
 {
     flex-direction: column;
@@ -202,7 +255,6 @@ li>a
 
 .img_jumbo>img
 {
-    max-width: 100%;
     margin-bottom: -5rem;
     margin-left: -1rem;
 }
@@ -221,11 +273,7 @@ li>a
 .card_33
 {
     width: calc(100%/3);
-    border-color: rgba(128, 128, 128, 0.418);
-    border-style: solid;
-    margin: 2px;
-    border-width: 1px;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .how_many
@@ -239,14 +287,6 @@ li>a
     flex-direction: column;
     gap: 2rem;
     padding: 2rem;
-}
-
-.horizontal_card_team
-{
-    border-color: rgba(128, 128, 128, 0.418);
-    border-style: solid;
-    margin: 2px;
-    border-width: 1px;
 }
 
 .team_icon
@@ -273,15 +313,6 @@ li>a
     padding-top: 2rem;
 }
 
-#keep_in_touch
-{
-    margin-top: 12rem;
-}
-
-.img_kit>img
-{
-    width: 100%;
-}
 
 .partner
 {
@@ -294,15 +325,16 @@ li>a
     background-color: var(--drop-light);
 }
 
-#six_pack
+.pad
 {
-    margin-top:12rem ;
+    padding-right: 3rem;
 }
 
-.wrap
+.bigger
 {
-    flex-wrap: wrap;
+    flex-basis: 80%;
 }
+
 /* #endregion Main */
 
 /* #region Footer */
