@@ -228,6 +228,39 @@ ul
     gap: 2rem;
     padding: 2rem;
 }
+
+.horizontal_card_team
+{
+    border-color: rgba(128, 128, 128, 0.418);
+    border-style: solid;
+    margin: 2px;
+    border-width: 1px;
+}
+
+.team_icon
+{
+    text-align: center;
+    padding: 1rem;
+}
+
+.team
+{
+    margin-top: 3rem;
+}
+
+.team_body_left
+{
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 80%;
+    padding: 2rem;
+}
+
+.team_body_right
+{
+    padding-top: 2rem;
+}
+
 /* #endregion Main */
 
 /* #region Footer */
