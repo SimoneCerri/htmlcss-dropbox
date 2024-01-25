@@ -14,6 +14,13 @@ li {
     list-style-type: none;
 }
 
+.button
+{
+    background-color: var(--drop-primary);
+    border-style: none;
+    padding: 0.25rem 0.5rem;
+    color: var(--drop-light);
+}
 /* #endregion Common */
 
 /* #region Utilities */
@@ -61,14 +68,19 @@ li {
 /* #endregion Debug */
 
 /* #region Header */
+#site_header
+{
+    padding: 2rem 1rem;
+}
+
 li>a {
     text-decoration: none;
     color: var(--drop-dark);
 }
 
-.right.left
+ul
 {
-    display: flex;
+    gap: 2rem;
 }
 /* #endregion Header */
 
