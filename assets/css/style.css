@@ -33,7 +33,23 @@
 /* #endregion Utilities */
 
 /* #region Debug */
+.debug #site_header
+{
+    height: 80px;
+    background-color: red;
+}
 
+.debug #site_main
+{
+    height: 1500px;
+    background-color: green;
+}
+
+.debug #site_footer
+{
+    height: 600px;
+    background-color: black;
+}
 /* #endregion Debug */
 
 /* #region Header */
