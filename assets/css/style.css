@@ -127,6 +127,10 @@ h6
     align-items: center;
 }
 
+.flex_start {
+    align-items: flex-start;
+}
+
 .button {
     background-color: var(--drop-primary);
     border-style: none;
@@ -345,8 +349,8 @@ li>a
 
 .package_price
 {
-    flex-direction: column;
-    gap: 2rem;
+    /* flex-direction: column; */
+    /* gap: 2rem; */
     padding: 2rem;
 }
 
@@ -390,9 +394,15 @@ li>a
     padding-right: 3rem;
 }
 
+#low_banner>.container_flex
+{
+    padding: 3rem 0;
+}
+
 .bigger
 {
     flex-basis: 80%;
+    margin-top: -1rem;
 }
 
 .big_block
@@ -434,14 +444,35 @@ li>a
 
 .price_top
 {
-    flex-basis: 60%;
-    gap: 3rem;
+    /* flex-basis: 50%; */
+    /* height: 50%; */
+    gap: 2rem;
+    padding-bottom: 1rem;
 }
 
 .price_bottom
 {
-    flex-basis: 40%;
+    /* flex-basis: 50%; */
+    /* height: 50%; */
+    gap: 1rem;
+    padding-top: 2rem;
 }
+
+.price
+{
+    padding: 1rem 0;
+}
+
+.price>h5
+{
+    padding-bottom: 2rem;
+}
+
+.perfect_1 span:nth-child(4)
+{
+    margin-bottom: 1.4rem;
+}
+
 /* #endregion Main */
 
 /* #region Footer */
