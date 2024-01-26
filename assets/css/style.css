@@ -403,15 +403,16 @@ li>a
 .card_50
 {
     width: 50%;
-    padding: 3rem;
+    /* padding: 3rem; */
 }
 
 .card_50>img
 {
-    width: 200px;
-    height: auto;
-    display: inline-block;
-    display: block;
+    /* width: 200px; */
+    padding: 6rem;
+    /* height: auto; */
+    /* display: inline-block; */
+    /* display: block; */
     margin: auto;
     aspect-ratio: 1;
     /* text-align: center; */
@@ -419,13 +420,28 @@ li>a
     filter: invert(100%);
 }
 
-.ratio>img
+#designit .big_block:nth-child(2)
 {
-    aspect-ratio: 0;
+    /* justify-content: space-around; */
+    gap: 4rem;
+    padding: 3rem;
+    
+    & > img 
+    {
+        width: 55%;
+    }
 }
 
+.price_top
+{
+    flex-basis: 60%;
+    gap: 3rem;
+}
 
-
+.price_bottom
+{
+    flex-basis: 40%;
+}
 /* #endregion Main */
 
 /* #region Footer */
