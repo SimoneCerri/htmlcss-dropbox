@@ -416,12 +416,16 @@ li>a
     aspect-ratio: 1;
     /* text-align: center; */
     /* viewBox="0 0 100 100" */
+    filter: invert(100%);
 }
 
 .ratio>img
 {
     aspect-ratio: 0;
 }
+
+
+
 /* #endregion Main */
 
 /* #region Footer */
