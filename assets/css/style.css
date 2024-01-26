@@ -117,8 +117,14 @@ h6
     gap: 1rem;
 }
 
-.space_b {
+.space_b
+{
     justify-content: space-between;
+}
+
+.align_c
+{
+    align-items: center;
 }
 
 .button {
@@ -175,6 +181,51 @@ h6
 .livorno
 {
     color:#440c18 ;
+}
+
+.color_1
+{
+    background-color: #a2d39bFF;
+}
+
+.color_2
+{
+    background-color: #61082bFF;
+}
+
+.color_3
+{
+    background-color: #0093ceFF;
+}
+
+.color_4
+{
+    background-color: #ff1c1cFF;
+}
+
+.color_5
+{
+    background-color: #d5001fFF;
+}
+
+.color_6
+{
+    background-color: #b4d0e7FF;
+}
+
+.color_7
+{
+    background-color: #0d2481FF;
+}
+
+.color_8
+{
+    background-color: #ffd830FF;
+}
+
+.color_big
+{
+    background-color: #f5f5f5FF;
 }
 /* #endregion Utilities */
 
@@ -344,28 +395,33 @@ li>a
     flex-basis: 80%;
 }
 
-#designit
-{
-    width: calc(100/3);
-}
-
 .big_block
 {
-    flex-grow: 1;
+    flex-basis: 33.33%;
 }
 
 .card_50
 {
-    /* aspect-ratio: 1 / 1 ; */
-    width: calc(100/2);
-    padding: 2rem;
+    width: 50%;
+    padding: 3rem;
 }
 
-.align_c
+.card_50>img
 {
-    align-items: center;
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    display: block;
+    margin: auto;
+    aspect-ratio: 1;
+    /* text-align: center; */
+    /* viewBox="0 0 100 100" */
 }
 
+.ratio>img
+{
+    aspect-ratio: 0;
+}
 /* #endregion Main */
 
 /* #region Footer */
