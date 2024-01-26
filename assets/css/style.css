@@ -69,7 +69,6 @@ h6
     outline: none;
     cursor: pointer;
     margin: 2rem 0;
-    clip-path: ;
 }
 
 [type=checkbox]:checked
@@ -324,7 +323,6 @@ li>a
     padding-top: 2rem;
 }
 
-
 .partner
 {
     padding: 3rem;
@@ -344,6 +342,28 @@ li>a
 .bigger
 {
     flex-basis: 80%;
+}
+
+#designit
+{
+    width: calc(100/3);
+}
+
+.big_block
+{
+    flex-grow: 1;
+}
+
+.card_50
+{
+    /* aspect-ratio: 1 / 1 ; */
+    width: calc(100/2);
+    padding: 2rem;
+}
+
+.align_c
+{
+    align-items: center;
 }
 
 /* #endregion Main */
