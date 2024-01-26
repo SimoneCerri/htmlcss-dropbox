@@ -413,17 +413,17 @@ li>a
 .card_50
 {
     width: 50%;
-    /* padding: 3rem; */
+    padding: 4rem;
 }
 
 .card_50>img
 {
     /* width: 200px; */
-    padding: 6rem;
+    /* padding: 4rem; */
     /* height: auto; */
     /* display: inline-block; */
     /* display: block; */
-    margin: auto;
+    /* margin: auto; */
     aspect-ratio: 1;
     /* text-align: center; */
     /* viewBox="0 0 100 100" */
@@ -473,6 +473,25 @@ li>a
     margin-bottom: 1.4rem;
 }
 
+.prova
+{
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prova>img 
+{
+    aspect-ratio: auto;
+}
+
+.buco .card_50:nth-child(3)
+{
+    width: 319.95px;
+    height: 324.95px;
+    /* position: relative; */
+}
 /* #endregion Main */
 
 /* #region Footer */
@@ -488,6 +507,11 @@ li>a
     color: var(--drop-light);
     text-decoration: none;
     font-size: 0.8rem;
+}
+
+.language
+{
+    margin-left: -5px;
 }
 
 /* #endregion Footer */
