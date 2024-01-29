@@ -683,19 +683,22 @@ li:hover ul.drop_menu {
     color: var(--drop-light);
 }
 
-#ask::before
-{
-    content: "ask_bar";
-}
-
-#ask::before {
-    content: "hide";
-}
-
 .hide
 {
     display: none;
 }
 
-.
+.ask_bar:hover .hide
+{
+    display: block;
+    font-size: 2rem;
+}
+
+.ask_bar:hover .swap>i
+{
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    background-color: lightgrey;
+}
 /* #endregion Transition */
