@@ -590,12 +590,6 @@ li>a
     display: block;
 }
 
-.menu:hover
-{
-    display: block;
-}
-
-
 li:hover ul.drop_menu {
     display: block;
 }
@@ -610,5 +604,78 @@ li:hover ul.drop_menu {
     box-shadow: inset 0 0 0 10px rgba(255, 255, 255, .5);
 }
 
+.button
+{
+    transition: 0.3s;
+    &:hover,
+    &:focus
+    {
+        border-color: var(--drop-secondary);
+        color: var(--drop-dark);
+    }
+}
+
+.button:hover,
+.button:focus
+{
+    box-shadow: inset 0 0 0 2em var(--drop-secondary);
+}
+
+.btn_max_w
+{
+    transition: box-shadow 0.5s ease-in;
+
+    &:hover,
+    &:focus
+    {
+        border-color: var(--drop-dark);
+        color: var(--drop-dark);
+    }
+}
+
+.btn_max_w:hover,
+.btn_max_w:focus
+{
+    box-shadow: inset 0 0 0 2em var(--drop-dark);
+    color: var(--drop-primary);
+}
+
+.btn_mid
+{
+    transition: box-shadow 0.5s ease-in;
+
+    &:hover,
+    &:focus {
+        border-color: var(--drop-dark);
+        color: var(--drop-dark);
+    }
+}
+
+.btn_mid:hover,
+.btn_mid:focus
+{
+    box-shadow: inset 0 0 0 2em lightgrey;
+    color: var(--drop-dark);
+}
+
+.button_w,.btn_white
+{
+    transition: box-shadow 0.6s ease;
+
+    &:hover,
+    &:focus {
+        border-color: var(--drop-light);
+        background-color: var(--drop-dark);
+    }
+}
+
+.button_w:hover,
+.button_w:focus,
+.btn_white:hover,
+.btn_white:focus
+{
+    box-shadow: inset 0 0 0 2em var(--drop-primary);
+    color: var(--drop-light);
+}
 
 /* #endregion Transition */
