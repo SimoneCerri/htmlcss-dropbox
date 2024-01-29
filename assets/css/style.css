@@ -127,31 +127,62 @@ h6
     align-items: center;
 }
 
-.flex_start {
+.flex_start
+{
     align-items: flex-start;
 }
 
-.button {
+.button
+{
     background-color: var(--drop-primary);
     border-style: none;
     padding: 0.5rem 1rem;
     color: var(--drop-light);
     cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.btn_max_w
+{
+    max-width: 250px;
+    margin: 3rem 0;
+    text-decoration: none;
+}
+
+.btn_mid
+{
+    background-color: var(--drop-primary);
+    border-style: none;
+    padding: 0.5rem 0.75rem;
+    color: var(--drop-light);
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
 }
 
 .button_w
 {
     background-color: var(--drop-light);
+    padding: 0.5rem 2rem;
+    color: var(--drop-dark);
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid var(--drop-dark);
+}
+
+.btn_white {
+    background-color: var(--drop-light);
     border-style: none;
     padding: 0.5rem 2rem;
     color: var(--drop-dark);
     cursor: pointer;
-}
-
-.max
-{
-    max-width: 12rem;
-    margin: 3rem 0;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
 }
 
 .little_hr
@@ -324,15 +355,15 @@ li>a
     margin-left: -1rem;
 }
 
-.sborder{
+/* .sborder{
     height: 100px;
     background-color: var(--drop-light);
 }
-
+ */
 #business
 {
     background-color: var(--drop-light);
-    padding-top: 3rem;
+    padding-top: 12rem;
 }
 
 .card_33
@@ -365,17 +396,22 @@ li>a
     margin-top: 3rem;
 }
 
+.team_body
+{
+    padding: 2rem;
+}
+
 .team_body_left
 {
     flex-direction: column;
     gap: 2rem;
     flex-basis: 80%;
-    padding: 2rem;
+    /* padding: 2rem; */
 }
 
 .team_body_right
 {
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
 }
 
 .partner
@@ -383,11 +419,11 @@ li>a
     padding: 3rem;
 }
 
-.partner>[type="button"]
+/* .partner>[type="button"]
 {
     padding: 0.5rem 1rem;
     background-color: var(--drop-light);
-}
+} */
 
 .pad
 {
@@ -401,8 +437,14 @@ li>a
 
 .bigger
 {
-    flex-basis: 80%;
+    flex-basis: 70%;
     margin-top: -1rem;
+}
+
+.smaller
+{
+    flex-basis: 30%;
+    padding-left: 3.5rem;
 }
 
 .big_block
@@ -488,8 +530,8 @@ li>a
 
 .buco .card_50:nth-child(3)
 {
-    width: 319.95px;
-    height: 324.95px;
+    /* width: 319.95px; */
+    height: 340px;
     /* position: relative; */
 }
 /* #endregion Main */
