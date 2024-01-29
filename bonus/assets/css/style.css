@@ -366,6 +366,11 @@ li>a
     margin-left: -1rem;
 }
 
+#scroll_down
+{
+    scroll-behavior: smooth;
+}
+
 #business
 {
     background-color: var(--drop-light);
@@ -678,4 +683,19 @@ li:hover ul.drop_menu {
     color: var(--drop-light);
 }
 
+#ask::before
+{
+    content: "ask_bar";
+}
+
+#ask::before {
+    content: "hide";
+}
+
+.hide
+{
+    display: none;
+}
+
+.
 /* #endregion Transition */
