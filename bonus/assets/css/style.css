@@ -298,6 +298,8 @@ h6
 {
     background-color: var(--drop-light);
     padding: 1rem 1rem;
+    position: fixed;
+    width: 100%;
 }
 
 li>a
@@ -318,6 +320,7 @@ li>a
 {
     background-color: var(--drop-secondary);
     text-align: center;
+    padding-top: 12rem;
 }
 
 #low_banner
@@ -363,11 +366,6 @@ li>a
     margin-left: -1rem;
 }
 
-/* .sborder{
-    height: 100px;
-    background-color: var(--drop-light);
-}
- */
 #business
 {
     background-color: var(--drop-light);
@@ -536,12 +534,6 @@ li>a
     aspect-ratio: auto;
 }
 
-.buco .card_50:nth-child(3)
-{
-    /* width: 319.95px; */
-    /* height: 324px; */
-    /* position: relative; */
-}
 /* #endregion Main */
 
 /* #region Footer */
@@ -572,6 +564,7 @@ li>a
 {
     background-color: var(--drop-light);
     color: var(--drop-dark);
+    text-decoration: none;
 }
 
 .dropbtn:hover
@@ -583,7 +576,7 @@ li>a
 {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: var(--drop-light);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -591,16 +584,31 @@ li>a
 
 .drop_menu a
 {
-    color: black;
+    color: var(--drop-dark);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
-.menu
+.menu:hover
 {
-    position: relative;
-    display: inline-block;
+    display: block;
 }
+
+
+li:hover ul.drop_menu {
+    display: block;
+}
+
+.card_50
+{
+    transition: box-shadow 300ms ease;
+}
+
+.card_50:hover
+{
+    box-shadow: inset 0 0 0 10px rgba(255, 255, 255, .5);
+}
+
 
 /* #endregion Transition */
