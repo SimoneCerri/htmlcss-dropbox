@@ -8,6 +8,11 @@
     font-optical-sizing: auto;
 }
 
+body
+{
+    min-width: 1440px;
+}
+
 img
 {
     width: 100%;
@@ -534,7 +539,7 @@ li>a
 .buco .card_50:nth-child(3)
 {
     /* width: 319.95px; */
-    height: 324px;
+    /* height: 324px; */
     /* position: relative; */
 }
 /* #endregion Main */
